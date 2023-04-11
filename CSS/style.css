@@ -1,0 +1,10 @@
+/* Colour scheme inspired by https://www.randomspecific.com/category/graphic-gems */
+
+@import url('https://fonts.cdnfonts.com/css/samarkan');
+@import url('https://fonts.cdnfonts.com/css/bungee');
+@import url('https://fonts.cdnfonts.com/css/bungee-shade');
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+
+@import "./general-styles.css";
+@import "./class-styles.css";
+@import "./responsive-styles.css";

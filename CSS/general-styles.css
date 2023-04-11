@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Samarkan';
+    font-size:9vmin;
+
+    color: whitesmoke;
+    text-shadow: 5px 5px black;
+
+    line-height:1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 a {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+h2, h3 {    
+    font-family: 'Bungee', sans-serif;
+    font-size:4vmin;
+
+    color: #cc4f1f;
+    text-shadow: 1px 1px whitesmoke;
+
+    line-height:1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size:3vmin;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 0.25em;
+}
+
+p strong {
+    color:#cc4f1f;
+    font-weight:bolder;
+}
+
+p em {
+    letter-spacing: 0.1em;
+}
+
+p u {
+    text-decoration: underline #cc4f1f;
+    text-decoration-thickness: 3px;
+}
+
+a {
+    color:#074ea3;
+   }
+
+blockquote {
+    font-size: larger;
+    border-left-style: dashed;
+    border-left-width: 4px;
+    border-left-color: #163906;
+    padding: 20px;
+}
+
+button, form [type ="submit"] {
+    font-family: 'Bungee', sans-serif;
+    font-size: 3vh;
+    color: whitesmoke;
+    text-shadow: -2px 2px black;
+    text-decoration: underline;
+
+    margin: 2px;
+    border-radius: 12px;
+
+    background-color: #074ea3;
+    line-height: 1.25em;
+}
+
+button:hover, form .form-submit-button:hover {
+    background-color: #97c1f4;
+}
+
+figcaption {
+    line-height: 1em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    row-gap: 10px;
+    padding-top: 10px;
+    flex-grow: 1;
+}
+
+input {
+    width: 70%;
+}
+
+label {
+    width: 25%;
+    text-indent: 10px;
+}

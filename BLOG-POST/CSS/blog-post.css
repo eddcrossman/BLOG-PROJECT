@@ -1,0 +1,8 @@
+@import "../../CSS/style.css";
+
+@import "./class-styles.css";
+@import "./responsive-styles.css";
+
+#about-me {
+    overflow: hidden;
+}
